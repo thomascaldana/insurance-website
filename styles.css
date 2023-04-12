@@ -1,0 +1,389 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'DM Serif Display', serif;
+    text-decoration: none;
+
+}
+
+
+
+.header_class {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-content: space-around;
+    gap: 1.7rem;
+    height: 10rem;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.header_class a {
+    color: gray;
+    font-weight: 400;
+    cursor: pointer;
+    letter-spacing: 1.6px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.header_class a:hover:not(.view_plans_button_header) {
+    color: black;
+}
+
+.view_plans_button_header {
+    background-color: transparent;
+    padding: .6rem 1.5rem;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: .7rem;
+}
+
+.view_plans_button_header:hover {
+    background-color: #2d2640;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .8rem;
+    height: 4.3rem;
+}
+
+header .img_logo {
+    margin-left: 7vw;
+}
+
+header .img_menu {
+    margin-right: 2rem;
+}
+
+#main_img {
+    width: 100vw;
+
+}
+
+.main_box h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    color: rgb(230, 228, 228);
+    text-align: center;
+}
+
+.main_box p {
+    color: #b9b7bf;
+    text-align: center;
+}
+
+.main_box {
+    background-color: #2d2640;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 32rem;
+    padding: 2rem;
+    ;
+    gap: 1rem;
+    margin-bottom: 6rem;
+    ;
+}
+
+
+.view_plans_button_main {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9rem;
+    font-weight: normal;
+    margin-top: 2rem;
+    color: white;
+    background-color: transparent;
+    padding: .6rem 1.5rem;
+    border: solid 1px white;
+    cursor: pointer;
+    border-radius: .7rem;
+}
+
+.view_plans_button_main:hover {
+    background-color: white;
+    color: #2d2640;
+    font-weight: 600;
+
+}
+
+
+#short-line {
+    margin: 0 auto;
+    width: 13rem;
+    height: 1px;
+    border: solid 1px rgb(192, 191, 191);
+}
+
+.second_title {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #423b53;
+    margin: 0 0 2rem 0;
+}
+
+.about {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.box1,
+.box2,
+.box3 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+
+.box_subtitle {
+    font-size: 1.5rem;
+    margin: 1.5rem 0 1rem;
+}
+
+
+.paragraph_box {
+    font-size: 1 rem;
+    text-align: center;
+    padding: 0 1rem;
+    color: #837d87;
+
+}
+
+.box3 {
+    margin: 0 0 3.4rem;
+}
+
+.find_out {
+    height: calc(18rem);
+    background-color: #2d2640;
+    margin: 0 4rem 7rem 4rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 2rem;
+    ;
+}
+
+.find_out h3 {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1;
+    color: white;
+    font-weight: normal;
+}
+
+.find_out button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .85rem;
+    padding: .7rem 1.2rem;
+    border: solid 1px white;
+    background-color: transparent;
+    color: white;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logos {
+    width: 100vw;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    gap: 2rem;
+    padding: 4rem 5rem 3.5rem;
+}
+
+.social_logos {
+    display: flex;
+    flex-flow: row;
+    gap: 1rem;
+}
+
+.hr_footer {
+    margin-top: 2rem;
+    width: 90vw;
+    height: 1px;
+    background-color: gray;
+    border: none;
+}
+
+.box_footer1 {
+    font-size: .9rem;
+    line-height: 2.2;
+    text-align: center;
+    letter-spacing: .08rem;
+}
+
+.box_footer1 h5 {
+    color: #aba9ab;
+    padding-bottom: .9rem;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+.footer__copy {
+    background-color: #2d2640;
+    width: 100%;
+    padding: .5rem 2rem;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.footer__copy span,
+a {
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-size: .9rem;
+    color: #a7a2b3;
+}
+
+.footer__copy a {
+    color: #bda4f9
+}
+
+
+
+@media screen and (max-width: 675px) {
+    .header_class {
+        display: none;
+    }
+
+    header img {
+        margin-left: .2vw;
+    }
+}
+
+
+@media screen and (min-width: 675px) {
+    .menu {
+        display: none;
+    }
+
+    #main_img {
+        width: 29%;
+        position: absolute;
+        height: 80vh;
+        margin: 11vw 1vw 10rem 63vw;
+        padding-right: -5rem;
+        object-fit: cover;
+
+    }
+
+
+    .main_box h1 {
+        font-size: 4.5rem;
+        font-weight: 400;
+        text-align: start;
+    }
+
+    .main_box p {
+        color: #b9b7bf;
+        text-align: start;
+    }
+
+    .main_box {
+        background-color: #2d2640;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: flex-start;
+        align-content: flex-start;
+        justify-content: center;
+        width: 100%;
+        height: 50rem;
+        gap: 1rem;
+        padding: 0 50% 0 5vw;
+        margin-bottom: 7rem;
+    }
+
+
+}
+
+
+@media screen and (min-width: 1300px) {
+
+    #short-line {
+        align-self: flex-start;
+        margin-left: 0 auto;
+        width: 50vw;
+        height: 1px;
+        border: solid 1px rgb(192, 191, 191);
+    }
+
+
+    .second_title {
+        align-self: center;
+        margin-left: 2vw;
+    }
+
+
+    .about_container {
+        display: flex;
+        flex-flow: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10vw;
+        margin: 0
+    }
+
+    .about {
+        margin-bottom: 5rem;
+    }
+
+    .paragraph_box {
+        font-size: 1 rem;
+        text-align: center;
+        padding: 0 1rem;
+        color: #837d87;
+        width: 18vw;
+
+    }
+
+    .box1,
+    .box2,
+    .box3 {
+        width: 20vw;
+    }
+
+
+
+
+
+
+}
