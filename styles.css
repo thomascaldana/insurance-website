@@ -189,14 +189,23 @@ header .img_menu {
     font-weight: normal;
 }
 
-.find_out button {
+.how_we_work_button {
     font-family: Arial, Helvetica, sans-serif;
     font-size: .85rem;
     padding: .7rem 1.2rem;
     border: solid 1px white;
     background-color: transparent;
     color: white;
+    border-radius: .7rem;
+    cursor: pointer;
 }
+
+.how_we_work_button:hover {
+    background-color: white;
+    color: #2d2640;
+    font-weight: 600;
+}
+
 
 footer {
     background-color: white;
@@ -222,6 +231,7 @@ footer {
     display: flex;
     flex-flow: row;
     gap: 1rem;
+    cursor: pointer;
 }
 
 .hr_footer {
@@ -299,7 +309,7 @@ a {
     #main_img {
         width: 29%;
         position: absolute;
-        height: 80vh;
+        height: 75vh;
         margin: 11vw 1vw 10rem 63vw;
         padding-right: -5rem;
         object-fit: cover;
@@ -381,9 +391,17 @@ a {
         width: 20vw;
     }
 
+   
+
+}
 
 
+@media screen and (min-width: 650px){
 
-
+    .container{
+        display: flex;
+        flex-flow: row wrap;
+        gap: 12vw;
+    }
 
 }
