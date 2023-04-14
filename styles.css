@@ -61,6 +61,10 @@ header .img_menu {
     margin-right: 2rem;
 }
 
+.img_menu{
+    cursor: pointer;
+}
+
 #main_img {
     width: 100vw;
 
@@ -304,6 +308,7 @@ a {
 @media screen and (min-width: 675px) {
     .menu {
         display: none;
+        
     }
 
     #main_img {
@@ -404,4 +409,15 @@ a {
         gap: 12vw;
     }
 
+}
+
+
+
+.menu_itens{
+    display: flex;
+    flex-flow: column;
+}
+
+header {
+height: 15rem;
 }

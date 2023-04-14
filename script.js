@@ -1,9 +1,23 @@
-/* var container = document.querySelector(".header_class");
+/* function showMenu() {
+    let titleModification = document.querySelector('.main_title').innerHTML = "NOVO TITULOO"
+    let menuButton = document.querySelector('.img_menu')
+    let bodyColor = document.getElementsByTagName('body')
+    menuButton.
+    bodyColor.style.color = "red"
+    titleModification.innerHTML = "NOVO TITULO"
+}
 
-var a = document.getElementsByClassName("header_class");
+addEventListener("click", showMenu)
 
-container.removeChild(a); */
+let titleModification = document.querySelector('.main_title')
+titleModification.innerHTML = "NOVO TITULO"
 
-/* var divHeader = document.querySelector(".header_class");
+document.querySelector('.main_title').innerHTML = "NOVO TITULOO"
+ */
 
-divHeader.remove() */
+function mudarConteudo() {
+    let menu_itens = document.querySelector('.menu_itens')
+    document.querySelector('.main_title').style.color = "red";
+    menu_itens.style.display = "none"
+    
+  }
