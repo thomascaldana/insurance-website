@@ -302,6 +302,46 @@ a {
     header img {
         margin-left: .2vw;
     }
+
+
+   .menu_itens{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        gap: 1.8rem;
+        justify-content: center;
+        background-color: gray;
+        padding: 2rem;
+
+    }
+    
+    .view_plans_button_header {
+        display: flex;
+        flex-flow: row;
+        background-color: transparent;
+        padding: .6rem 1.5rem;
+        border: solid 1px rgb(0, 0, 0);
+        border-radius: .7rem;
+    }
+    
+    .view_plans_button_header:hover {
+        background-color: #2d2640;
+        color: white;
+    }
+
+    .itens{
+        font-weight: 400;
+        color: white;
+        padding: 1rem;
+        border-radius: .7rem;
+    }
+
+    .itens:hover{
+        background-color: #2d2640;
+    }
+
+
+
 }
 
 
@@ -347,6 +387,7 @@ a {
         margin-bottom: 7rem;
     }
 
+ 
 
 }
 
@@ -413,11 +454,3 @@ a {
 
 
 
-.menu_itens{
-    display: flex;
-    flex-flow: column;
-}
-
-header {
-height: 15rem;
-}
