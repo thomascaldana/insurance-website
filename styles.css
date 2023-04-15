@@ -347,15 +347,20 @@ a {
 
 @media screen and (min-width: 675px) {
     .menu {
-        display: none;
-        
+        display: none; 
     }
+
+    .menu_itens{
+        display: none;
+    }
+
 
     #main_img {
         width: 29%;
         position: absolute;
-        height: 75vh;
-        margin: 10vw 1vw 10rem 63vw;
+        height:40rem;
+        right: calc(1.5rem + 3vw);
+        top: 10rem;
         padding-right: -5rem;
         object-fit: cover;
 
