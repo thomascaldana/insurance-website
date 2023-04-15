@@ -16,17 +16,11 @@ document.querySelector('.main_title').innerHTML = "NOVO TITULOO"
  */
 
 function mudarConteudo() {
-    let menu_itens = document.querySelector('.menu_itens')
-    let opened_menu = document.querySelector('.opened_menu')
-    document.querySelector('.main_title').style.color = "red";
-    if (menu_itens.style.display === "flex") {
-        menu_itens.style.display = "none"
-        opened_menu.style.display = "none"
-        document.querySelector('.main_title').style.color = "blue";
-    } else {
-        menu_itens.style.display = "flex"
+    let opened_menu = document.querySelector('.opened_menu');
+    if (opened_menu.style.display !== "block") {
         opened_menu.style.display = "block"
-        document.querySelector('.main_title').style.color = "green";
+    } else {
+        opened_menu.style.display = "none"
     }
    
     
