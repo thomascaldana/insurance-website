@@ -17,6 +17,7 @@ document.querySelector('.main_title').innerHTML = "NOVO TITULOO"
 
 function mudarConteudo() {
     let menu_itens = document.querySelector('.menu_itens')
+    
     document.querySelector('.main_title').style.color = "red";
     if (menu_itens.style.display !== "none") {
         menu_itens.style.display = "none"
