@@ -292,9 +292,9 @@ a {
     color: #bda4f9
 }
 
-/* .opened_menu{
+.opened_menu{
     display: none;
-} */
+}
 
 @media screen and (max-width: 675px) {
     .header_class {
