@@ -342,7 +342,10 @@ a {
         background-color: #2d2640;
     }
 
-
+    .menu {
+        background-color: transparent;
+        border: none;
+    }
 
 }
 
